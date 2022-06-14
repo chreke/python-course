@@ -1,0 +1,13 @@
+# General
+.vim
+.DS_Store
+.idea
+.vscode
+.vs
+
+# Python
+__pycache__
+venv
+env
+.mypy_cache
+.pytest_cache
