@@ -1,17 +1,17 @@
-Name,Salary,Department,Role
-Henry,40000,Sales,Graphic designer
-Max,90000,HQ,CEO
-Alice,60000,Sales,Sales manager
-Bob,40000,Sales,Copywriter
-Cindy,50000,HQ,Manager
-David,60000,Development,Software engineer
-Eric,70000,Development,Manager
-Filip,30000,Sales,Intern
-Gunnar,65000,Development,Software engineer
-Ian,50000,Development,Software engineer
-Jen,60000,Development,Software engineer
-Karl,40000,Sales,Copywriter
-Lisa,65000,Development,Tech lead
-Mary,50000,Development,Software engineer
-Nina,55000,Development,HR
-Olof,30000,Development,Intern
+Email,Name,Salary,Department,Role
+henry@acme.com,Henry,40000,Sales,Graphic designer
+max@acme.com,Max,90000,HQ,CEO
+alice@acme.com,Alice,60000,Sales,Sales manager
+bob@acme.com,Bob,40000,Sales,Copywriter
+cindy@acme.com,Cindy,50000,HQ,Manager
+david@acme.com,David,60000,Development,Software engineer
+eric@acme.com,Eric,70000,Development,Manager
+filip@acme.com,Filip,30000,Sales,Intern
+gunnar@acme.com,Gunnar,65000,Development,Software engineer
+ian@acme.com,Ian,50000,Development,Software engineer
+jen@acme.com,Jen,60000,Development,Software engineer
+karl@acme.com,Karl,40000,Sales,Copywriter
+lisa@acme.com,Lisa,65000,Development,Tech lead
+mary@acme.com,Mary,50000,Development,Software engineer
+nina@acme.com,Nina,55000,Development,HR
+olof@acme.com,Olof,30000,Development,Intern
