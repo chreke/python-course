@@ -1,8 +1,13 @@
+import requests
+
 class RandomUser:
     def __init__(self, name, age, email):
         self.name = name
         self.age = age
         self.email = email
+
+    def __str__(self):
+        return f"{self.name} <{self.email}>"
 
 def deserialize(data):
     return RandomUser(
@@ -12,7 +17,8 @@ def deserialize(data):
     )
 
 def get_random_users():
-    pass
+    url = "https://randomuser.me/api/?results=10"
+    return requests.get(url).json()["results"]
 
 def random_users():
     users = []
