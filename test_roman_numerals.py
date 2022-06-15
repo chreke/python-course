@@ -1,6 +1,7 @@
 import pytest
+from hypothesis import given, strategies
 
-from roman_numerals import roman_numeral
+from roman_numerals import roman_numeral, numeral_to_int
 
 @pytest.mark.parametrize("integer, expected", [
     (1, "I"),
@@ -25,3 +26,9 @@ def test_simple_numerals(integer, expected):
 ])
 def test_complex_numerals(integer, expected):
     assert roman_numeral(integer) == expected
+
+
+@given(strategies.integers(min_value=1, max_value=10000))
+def test_numeral_to_int(integer):
+    numeral = roman_numeral(integer)
+    assert numeral_to_int(numeral) == integer

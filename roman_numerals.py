@@ -21,3 +21,11 @@ def roman_numeral(integer):
         numeral += letter * qty
         integer -= qty * value
     return numeral
+
+def numeral_to_int(numeral):
+    integer = 0
+    for (value, letter) in NUMERALS:
+        while numeral.startswith(letter):
+            integer += value
+            numeral = numeral[len(letter):]
+    return integer
