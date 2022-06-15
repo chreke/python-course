@@ -5,7 +5,9 @@ backcall==0.2.0
 certifi==2022.6.15
 charset-normalizer==2.0.12
 decorator==5.1.1
+exceptiongroup==1.0.0rc8
 executing==0.8.3
+hypothesis==6.47.3
 idna==3.3
 iniconfig==1.1.1
 ipython==8.4.0
@@ -25,6 +27,7 @@ pyparsing==3.0.9
 pytest==7.1.2
 requests==2.28.0
 six==1.16.0
+sortedcontainers==2.4.0
 stack-data==0.2.0
 tomli==2.0.1
 traitlets==5.2.2.post1
